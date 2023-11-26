@@ -86,6 +86,16 @@ section {
     height: 50vh;
 }
 
+.span-center {
+    display: block;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+#exampleInputMessage{
+    height: 10em;
+}
+
 
 footer {
     color: white;
