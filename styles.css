@@ -162,3 +162,32 @@ footer {
       margin-top: 40px;
     }
   }
+
+
+  .carousel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+  }
+  
+
+
+  .rectangle {
+    flex: 0 0 auto;
+    width: 20rem; 
+    height: 15rem;
+    margin: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 1rem;
+    scroll-snap-align: start;
+  }
+
+ 
+  .carousel::-webkit-scrollbar {
+    height: 0.4em;
+  }
+  
+  .carousel::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+    transition: background 0.3s;
+  }
