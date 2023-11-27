@@ -1,3 +1,13 @@
+//password for resume
+function checkPassword(event) {
+  var password = prompt("Please enter the password:");
+  if (password !== "PassMe2Resume") {
+    event.preventDefault();
+    alert("Incorrect password.");
+    return false;
+  }
+}
+
 // Wrap every letter in a span
 var textWrapper = document.querySelector('.ml3');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
