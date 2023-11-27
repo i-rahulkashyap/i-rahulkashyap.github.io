@@ -6,6 +6,11 @@ body {
 }
 
 
+.ml3 {
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+
 
 .nav-item {
     margin: 0 20px;
@@ -131,3 +136,29 @@ footer a {
 footer {
     background-color: black;
 }
+.nav-link {
+    position: relative;
+  }
+  
+  .nav-link::after {
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: all 0.3s ease 0s;
+    width: 0;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+    left: 0;
+  }
+  
+  @media screen and (max-height: 300px) {
+    .navbar-nav {
+      margin-top: 40px;
+    }
+  }
