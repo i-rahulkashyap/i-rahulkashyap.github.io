@@ -201,6 +201,12 @@ footer {
     text-align: center;
   }
 
+
+  
   .link-padding{
-    padding: 0em 5.5em 0em 5.5em;
+    margin-right: 5.5em;
+  }
+
+  .center-text-footer{
+    margin-left: 34.5em !important;
   }
