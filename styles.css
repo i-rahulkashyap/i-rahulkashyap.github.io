@@ -4,10 +4,10 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
-  
-  .navbar-brand i::before {
-    animation: icon-change 3s infinite;
-  }
+
+.navbar-brand i::before {
+  animation: icon-change 3s infinite;
+}
 
 .ml3 {
     font-weight: 900;
@@ -210,3 +210,118 @@ footer {
   .center-text-footer{
     margin-left: 34.5em !important;
   }
+
+  .bg-dark{
+    background-color: black !important;
+  }
+
+
+  /* ... existing code ... */
+
+@media screen and (max-width: 500px) {
+  body{
+    font-size: 14px !important;
+  }
+  
+  .hero-desc{
+    margin-left: 0px !important;
+  }
+
+  #myimage{
+    height: 50%;
+    margin-right: 0px !important;
+  }
+
+  .boldest-text {
+    font-size: 1.75rem !important;
+  }
+
+  .medium-text {
+    font-size: 1rem !important;
+  }
+
+  .content-section {
+    padding: 1em !important;
+    word-wrap: break-word !important; /* Ensure text wraps properly */
+  }
+
+  .nav-item {
+    margin: 0 10px !important;
+    font-size: 1rem !important;
+  }
+
+  footer {
+    text-align: center !important;
+    padding: 1em 0 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+  .center-text-footer{
+    margin-left: 0 !important;
+  }
+
+  .link-padding {
+    margin-right: 0 !important;
+  }
+  
+
+  .center-text-footer {
+    margin-left: 0 !important;
+  }
+
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1em !important;
+    margin: 0 !important;
+    min-height: 60vh; 
+  }
+
+  #about .content-section {
+    width: 100%;
+    padding: 1em !important;
+    font-size: 0.9rem !important; 
+    line-height: 1.4 !important; 
+  }
+
+  #contact {
+    padding: 1em !important;
+    margin: 0 !important;
+    min-height: 85vh !important;
+  }
+
+  #contact .row {
+    flex-direction: column !important;
+  }
+  #contact .col-md-6 {
+    width: 100% !important;
+    margin-bottom: 1em !important;
+  }
+
+  #contact .form-group {
+    width: 100% !important;
+  }
+
+  #contact .form-control {
+    width: 100% !important;
+  }
+
+  #contact .btn {
+    width: 20% !important;
+    border-radius: 50px !important; /* Make the button capsule-shaped */
+    height: auto !important;
+    padding: 1em !important;
+    
+  }
+  
+  
+}
+
+
